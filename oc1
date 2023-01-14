@@ -65,6 +65,22 @@ proxies:
       headers:
         Host: z-p15.www.instagram.com
     udp: true
+  - name: dynamic-sg3b.obfs.xyz
+    server: dynamic-sg3b.obfs.xyz
+    port: 80
+    type: vmess
+    uuid: c6d99e98-ad2b-4340-bbc8-ba4775982e33
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: z-p15.www.instagram.com
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree
+      headers:
+        Host: z-p15.www.instagram.com
+    udp: true
 proxy-groups:
   - name: FASTSSH-SSHKIT-HOWDY
     type: select
@@ -72,6 +88,7 @@ proxy-groups:
       - id-ikd.vmess.sbs
       - sg-he1.vmess.sbs
       - v2ray3.udpgw.com
+      - dynamic-sg3b.obfs.xyz
       - BEST-PING
       - DIRECT
   - name: BEST-PING
@@ -83,5 +100,6 @@ proxy-groups:
       - id-ikd.vmess.sbs
       - sg-he1.vmess.sbs
       - v2ray3.udpgw.com
+      - dynamic-sg3b.obfs.xyz
 rules:
   - MATCH,FASTSSH-SSHKIT-HOWDY
