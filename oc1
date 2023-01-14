@@ -1,0 +1,87 @@
+tproxy-port: 7893
+bind-address: "*"
+mode: rule
+allow-lan: true
+log-level: silent
+external-controller: 0.0.0.0:9090
+external-ui: yacd-gh-pages
+unified-delay: true
+ipv6: false
+dns:
+  enable: true
+  ipv6: false
+  listen: 0.0.0.0:1053
+  enhanced-mode: fake-ip
+  fake-ip-range: 28.0.0.0/8
+  use-hosts: true
+  nameserver:
+    - https://cloudflare-dns.com/dns-query
+proxies:
+  - name: id-ikd.vmess.sbs
+    server: id-ikd.vmess.sbs
+    port: 80
+    type: vmess
+    uuid: 0801e240-9428-11ed-b236-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: z-p15.www.instagram.com
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree
+      headers:
+        Host: z-p15.www.instagram.com
+    udp: true
+  - name: sg-he1.vmess.sbs
+    server: sg-he1.vmess.sbs
+    port: 80
+    type: vmess
+    uuid: 533e1a70-9428-11ed-b432-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: z-p15.www.instagram.com
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree
+      headers:
+        Host: z-p15.www.instagram.com
+    udp: true
+  - name: v2ray3.udpgw.com
+    server: v2ray3.udpgw.com
+    port: 80
+    type: vmess
+    uuid: 7aafa48a-5692-45d5-935f-cd9d08f5fdfe
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: z-p15.www.instagram.com
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree
+      headers:
+        Host: z-p15.www.instagram.com
+    udp: true
+proxy-groups:
+  - name: FASTSSH-SSHKIT-HOWDY
+    type: select
+    proxies:
+      - id-ikd.vmess.sbs
+      - sg-he1.vmess.sbs
+      - v2ray3.udpgw.com
+      - BEST-PING
+      - DIRECT
+  - name: BEST-PING
+    type: url-test
+    url: http://hi.bonds.id/ping
+    interval: 300
+    tolerance: 50
+    proxies:
+      - id-ikd.vmess.sbs
+      - sg-he1.vmess.sbs
+      - v2ray3.udpgw.com
+rules:
+  - MATCH,FASTSSH-SSHKIT-HOWDY
