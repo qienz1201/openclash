@@ -113,6 +113,22 @@ proxies:
       headers:
         Host: z-p15.www.instagram.com
     udp: true
+  - name: jagoanssh-bjkvsbvk
+    server: id2-ray.ipservers.xyz
+    port: 80
+    type: vmess
+    uuid: 8d6f29f1-e074-49d4-acd2-4803df2934b7
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: z-p15.www.instagram.com
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree
+      headers:
+        Host: z-p15.www.instagram.com
+    udp: true
 proxy-groups:
   - name: FASTSSH-SSHKIT-HOWDY
     type: select
@@ -123,6 +139,7 @@ proxy-groups:
       - dynamic-sg3b.obfs.xyz
       - dynamic-us3b.obfs.xyz
       - jagoanssh-ghgjdhgfjdf
+      - jagoanssh-bjkvsbvk
       - BEST-PING
       - DIRECT
   - name: BEST-PING
@@ -137,5 +154,6 @@ proxy-groups:
       - dynamic-sg3b.obfs.xyz
       - dynamic-us3b.obfs.xyz
       - jagoanssh-ghgjdhgfjdf
+      - jagoanssh-bjkvsbvk
 rules:
   - MATCH,FASTSSH-SSHKIT-HOWDY
