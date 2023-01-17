@@ -34,10 +34,10 @@ proxies:
         Host: z-p15.www.instagram.com
     udp: true
   - name: qienz 2
-    server: sg-he1.vmess.sbs
+     server: sg-1.0rd.net
     port: 80
     type: vmess
-    uuid: 533e1a70-9428-11ed-b432-205c6d5f5d78
+    uuid: ea69ac60-9654-11ed-b836-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -50,10 +50,10 @@ proxies:
         Host: z-p15.www.instagram.com
     udp: true
   - name: qienz 3
-    server: v2ray3.udpgw.com
+    server: sg-3.0rd.net
     port: 80
     type: vmess
-    uuid: 78fa676e-4c14-46ce-9520-c5cf7631d438
+    uuid: 3e5b5b00-9655-11ed-b338-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -66,10 +66,10 @@ proxies:
         Host: z-p15.www.instagram.com
     udp: true
   - name: qienz 4
-    server: dynamic-sg3b.obfs.xyz
+    server: id-1.0rd.net
     port: 80
     type: vmess
-    uuid: c6d99e98-ad2b-4340-bbc8-ba4775982e33
+    uuid: 8dd9bce0-9655-11ed-b835-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
