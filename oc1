@@ -17,7 +17,7 @@ dns:
   nameserver:
     - https://cloudflare-dns.com/dns-query
 proxies:
-  - name: qienz 1
+  - name: qienz1
     server: sg-4.0rd.net
     port: 80
     type: vmess
@@ -33,7 +33,7 @@ proxies:
       headers:
         Host: z-p15.www.instagram.com
     udp: true
-  - name: qienz 2
+  - name: qienz2
      server: sg-1.0rd.net
     port: 80
     type: vmess
@@ -49,7 +49,7 @@ proxies:
       headers:
         Host: z-p15.www.instagram.com
     udp: true
-  - name: qienz 3
+  - name: qienz3
     server: sg-3.0rd.net
     port: 80
     type: vmess
@@ -65,7 +65,7 @@ proxies:
       headers:
         Host: z-p15.www.instagram.com
     udp: true
-  - name: qienz 4
+  - name: qienz4
     server: id-1.0rd.net
     port: 80
     type: vmess
@@ -81,7 +81,7 @@ proxies:
       headers:
         Host: z-p15.www.instagram.com
     udp: true
-  - name: qienz 5
+  - name: qienz5
     server: dynamic-us3b.obfs.xyz
     port: 80
     type: vmess
@@ -97,7 +97,7 @@ proxies:
       headers:
         Host: z-p15.www.instagram.com
     udp: true
-  - name: qienz 6
+  - name: qienz6
     server: sg4-ray.ipservers.xyz
     port: 80
     type: vmess
@@ -113,7 +113,7 @@ proxies:
       headers:
         Host: z-p15.www.instagram.com
     udp: true
-  - name: qienz 7
+  - name: qienz7
     server: id2-ray.ipservers.xyz
     port: 80
     type: vmess
@@ -129,7 +129,7 @@ proxies:
       headers:
         Host: z-p15.www.instagram.com
     udp: true
-  - name: qienz 8
+  - name: qienz8
     server: sg2.zevesh.host
     port: 80
     type: vmess
@@ -149,14 +149,14 @@ proxy-groups:
   - name: FASTSSH-SSHKIT-HOWDY
     type: select
     proxies:
-      - qienz 1
-      - qienz 2
-      - qienz 3
-      - qienz 4
-      - qienz 5
-      - qienz 6
-      - qienz 7
-      - qienz 8
+      - qienz1
+      - qienz2
+      - qienz3
+      - qienz4
+      - qienz5
+      - qienz6
+      - qienz7
+      - qienz8
       - BEST-PING
       - DIRECT
   - name: BEST-PING
@@ -165,13 +165,13 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - qienz 1
-      - qienz 2
-      - qienz 3
-      - qienz 4
-      - qienz 5
-      - qienz 6
-      - qienz 7
-      - qienz 8
+      - qienz1
+      - qienz2
+      - qienz3
+      - qienz4
+      - qienz5
+      - qienz6
+      - qienz7
+      - qienz8
 rules:
   - MATCH,FASTSSH-SSHKIT-HOWDY
