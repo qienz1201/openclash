@@ -17,11 +17,11 @@ dns:
   nameserver:
     - https://cloudflare-dns.com/dns-query
 proxies:
-  - name: id-ikd.vmess.sbs
-    server: id-ikd.vmess.sbs
+  - name: qienz 1
+    server: sg-4.0rd.net
     port: 80
     type: vmess
-    uuid: 0801e240-9428-11ed-b236-205c6d5f5d78
+    uuid: c7d40d90-9653-11ed-b431-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -33,7 +33,7 @@ proxies:
       headers:
         Host: z-p15.www.instagram.com
     udp: true
-  - name: sg-he1.vmess.sbs
+  - name: qienz 2
     server: sg-he1.vmess.sbs
     port: 80
     type: vmess
@@ -49,7 +49,7 @@ proxies:
       headers:
         Host: z-p15.www.instagram.com
     udp: true
-  - name: v2ray3.udpgw.com
+  - name: qienz 3
     server: v2ray3.udpgw.com
     port: 80
     type: vmess
@@ -65,7 +65,7 @@ proxies:
       headers:
         Host: z-p15.www.instagram.com
     udp: true
-  - name: dynamic-sg3b.obfs.xyz
+  - name: qienz 4
     server: dynamic-sg3b.obfs.xyz
     port: 80
     type: vmess
@@ -81,7 +81,7 @@ proxies:
       headers:
         Host: z-p15.www.instagram.com
     udp: true
-  - name: dynamic-us3b.obfs.xyz
+  - name: qienz 5
     server: dynamic-us3b.obfs.xyz
     port: 80
     type: vmess
@@ -97,7 +97,7 @@ proxies:
       headers:
         Host: z-p15.www.instagram.com
     udp: true
-  - name: jagoanssh-ghgjdhgfjdf
+  - name: qienz 6
     server: sg4-ray.ipservers.xyz
     port: 80
     type: vmess
@@ -113,7 +113,7 @@ proxies:
       headers:
         Host: z-p15.www.instagram.com
     udp: true
-  - name: jagoanssh-bjkvsbvk
+  - name: qienz 7
     server: id2-ray.ipservers.xyz
     port: 80
     type: vmess
@@ -129,7 +129,7 @@ proxies:
       headers:
         Host: z-p15.www.instagram.com
     udp: true
-  - name: trial148720230115192512
+  - name: qienz 8
     server: sg2.zevesh.host
     port: 80
     type: vmess
@@ -149,14 +149,14 @@ proxy-groups:
   - name: FASTSSH-SSHKIT-HOWDY
     type: select
     proxies:
-      - id-ikd.vmess.sbs
-      - sg-he1.vmess.sbs
-      - v2ray3.udpgw.com
-      - dynamic-sg3b.obfs.xyz
-      - dynamic-us3b.obfs.xyz
-      - jagoanssh-ghgjdhgfjdf
-      - jagoanssh-bjkvsbvk
-      - trial148720230115192512
+      - qienz 1
+      - qienz 2
+      - qienz 3
+      - qienz 4
+      - qienz 5
+      - qienz 6
+      - qienz 7
+      - qienz 8
       - BEST-PING
       - DIRECT
   - name: BEST-PING
@@ -165,13 +165,13 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - id-ikd.vmess.sbs
-      - sg-he1.vmess.sbs
-      - v2ray3.udpgw.com
-      - dynamic-sg3b.obfs.xyz
-      - dynamic-us3b.obfs.xyz
-      - jagoanssh-ghgjdhgfjdf
-      - jagoanssh-bjkvsbvk
-      - trial148720230115192512
+      - qienz 1
+      - qienz 2
+      - qienz 3
+      - qienz 4
+      - qienz 5
+      - qienz 6
+      - qienz 7
+      - qienz 8
 rules:
   - MATCH,FASTSSH-SSHKIT-HOWDY
