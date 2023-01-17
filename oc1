@@ -34,7 +34,7 @@ proxies:
         Host: z-p15.www.instagram.com
     udp: true
   - name: qienz2
-     server: sg-1.0rd.net
+    server: sg-1.0rd.net
     port: 80
     type: vmess
     uuid: ea69ac60-9654-11ed-b836-205c6d5f5d78
