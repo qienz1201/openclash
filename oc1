@@ -53,7 +53,7 @@ proxies:
     server: v2ray3.udpgw.com
     port: 80
     type: vmess
-    uuid: 7aafa48a-5692-45d5-935f-cd9d08f5fdfe
+    uuid: 78fa676e-4c14-46ce-9520-c5cf7631d438
     alterId: 0
     cipher: auto
     tls: false
