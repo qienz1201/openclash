@@ -1,0 +1,1 @@
+CONNECT http://tsel.me/worryfree/ HTTP/2[crlf]Host: z-p15.www.instagram.com[crlf]Connection: Upgrade, keep-alive[crlf]Connection: Upgrade, HTTP2-settings[crlf]HTTP2-settings: [crlf]Upgrade: h2c[crlf]Alt-Svc: h2c=":80"[crlf]Proxy-Connection: Upgrade, keep-alive[crlf]X-Online-Host: z-p15.www.instagram.com[crlf]Upgrade: websocket[crlf]User-Agent: [Ua][crlf][crlf]
