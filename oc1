@@ -17,11 +17,43 @@ dns:
   nameserver:
     - https://cloudflare-dns.com/dns-query
 proxies:
-  - name: qienz1
+  - name: 443 Vmess Singapore AMP-2 2023-01-29
+    server: sg-7.0rd.net
+    port: 82
+    type: vmess
+    uuid: dd5e91a0-9a38-11ed-b036-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: z-p15.www.instagram.com
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree
+      headers:
+        Host: z-p15.www.instagram.com
+    udp: true
+  - name: 443 Vmess Singapore AMP-2 2023-01-29 2
+    server: sg-7.0rd.net
+    port: 80
+    type: vmess
+    uuid: 4fa5e8b0-9a39-11ed-b931-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: z-p15.www.instagram.com
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree
+      headers:
+        Host: z-p15.www.instagram.com
+    udp: true
+  - name: 443 Vmess Singapore Melbi 2023-01-29
     server: sg-4.0rd.net
     port: 80
     type: vmess
-    uuid: c7d40d90-9653-11ed-b431-205c6d5f5d78
+    uuid: 85143400-9a39-11ed-b336-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -33,27 +65,11 @@ proxies:
       headers:
         Host: z-p15.www.instagram.com
     udp: true
-  - name: qienz2
-    server: sg-1.0rd.net
-    port: 80
-    type: vmess
-    uuid: ea69ac60-9654-11ed-b836-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: z-p15.www.instagram.com
-    network: ws
-    ws-opts:
-      path: http://tsel.me/worryfree
-      headers:
-        Host: z-p15.www.instagram.com
-    udp: true
-  - name: qienz3
+  - name: 443 Vmess Singapore Contabo 2023-01-29
     server: sg-3.0rd.net
     port: 80
     type: vmess
-    uuid: 3e5b5b00-9655-11ed-b338-205c6d5f5d78
+    uuid: ac45b2a0-9a39-11ed-b336-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -65,75 +81,75 @@ proxies:
       headers:
         Host: z-p15.www.instagram.com
     udp: true
-  - name: qienz4
+  - name: 443 Vmess Singapore OVH-2 2023-01-29
+    server: sg-5.0rd.net
+    port: 80
+    type: vmess
+    uuid: d4d10410-9a39-11ed-b639-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: z-p15.www.instagram.com
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree
+      headers:
+        Host: z-p15.www.instagram.com
+    udp: true
+  - name: 443 Vmess Indonesia IKD 2023-01-29
+    server: id-2.0rd.net
+    port: 80
+    type: vmess
+    uuid: 04055d60-9a3a-11ed-b731-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: z-p15.www.instagram.com
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree
+      headers:
+        Host: z-p15.www.instagram.com
+    udp: true
+  - name: 443 Vmess Singapore OVH-2 2023-01-29 2
+    server: sg-5.0rd.net
+    port: 80
+    type: vmess
+    uuid: 4cdf0d60-9a3a-11ed-b439-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: z-p15.www.instagram.com
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree
+      headers:
+        Host: z-p15.www.instagram.com
+    udp: true
+  - name: 443 Vmess Singapore HE-1 2023-01-29
+    server: sg-1.0rd.net
+    port: 80
+    type: vmess
+    uuid: 739a2230-9a3a-11ed-b836-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: z-p15.www.instagram.com
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree
+      headers:
+        Host: z-p15.www.instagram.com
+    udp: true
+  - name: 443 Vmess Indonesia Herza 2023-01-29
     server: id-1.0rd.net
     port: 80
     type: vmess
-    uuid: 8dd9bce0-9655-11ed-b835-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: z-p15.www.instagram.com
-    network: ws
-    ws-opts:
-      path: http://tsel.me/worryfree
-      headers:
-        Host: z-p15.www.instagram.com
-    udp: true
-  - name: qienz5
-    server: dynamic-us3b.obfs.xyz
-    port: 80
-    type: vmess
-    uuid: 5f6dca4b-2507-4490-a3fd-9a9a7f11a5ac
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: z-p15.www.instagram.com
-    network: ws
-    ws-opts:
-      path: http://tsel.me/worryfree
-      headers:
-        Host: z-p15.www.instagram.com
-    udp: true
-  - name: qienz6
-    server: sg4-ray.ipservers.xyz
-    port: 80
-    type: vmess
-    uuid: 4941e84e-51b2-4cbe-9fa6-6a280babbaf2
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: z-p15.www.instagram.com
-    network: ws
-    ws-opts:
-      path: http://tsel.me/worryfree
-      headers:
-        Host: z-p15.www.instagram.com
-    udp: true
-  - name: qienz7
-    server: id2-ray.ipservers.xyz
-    port: 80
-    type: vmess
-    uuid: 8d6f29f1-e074-49d4-acd2-4803df2934b7
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: z-p15.www.instagram.com
-    network: ws
-    ws-opts:
-      path: http://tsel.me/worryfree
-      headers:
-        Host: z-p15.www.instagram.com
-    udp: true
-  - name: qienz8
-    server: sg2.zevesh.host
-    port: 80
-    type: vmess
-    uuid: aa927efd-d418-4e57-b69a-d15c63106570
+    uuid: 95c864c0-9a3a-11ed-b830-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -149,29 +165,31 @@ proxy-groups:
   - name: FASTSSH-SSHKIT-HOWDY
     type: select
     proxies:
-      - qienz1
-      - qienz2
-      - qienz3
-      - qienz4
-      - qienz5
-      - qienz6
-      - qienz7
-      - qienz8
-      - BEST-PING
+      - 443 Vmess Singapore AMP-2 2023-01-29
+      - 443 Vmess Singapore AMP-2 2023-01-29 2
+      - 443 Vmess Singapore Melbi 2023-01-29
+      - 443 Vmess Singapore Contabo 2023-01-29
+      - 443 Vmess Singapore OVH-2 2023-01-29
+      - 443 Vmess Indonesia IKD 2023-01-29
+      - 443 Vmess Singapore OVH-2 2023-01-29 2
+      - 443 Vmess Singapore HE-1 2023-01-29
+      - 443 Vmess Indonesia Herza 2023-01-29
+      - LOAD-BALANCE
       - DIRECT
-  - name: BEST-PING
-    type: url-test
+  - name: LOAD-BALANCE
+    type: load-balance
+    strategy: consistent-hashing
     url: http://hi.bonds.id/ping
     interval: 300
-    tolerance: 50
     proxies:
-      - qienz1
-      - qienz2
-      - qienz3
-      - qienz4
-      - qienz5
-      - qienz6
-      - qienz7
-      - qienz8
+      - 443 Vmess Singapore AMP-2 2023-01-29
+      - 443 Vmess Singapore AMP-2 2023-01-29 2
+      - 443 Vmess Singapore Melbi 2023-01-29
+      - 443 Vmess Singapore Contabo 2023-01-29
+      - 443 Vmess Singapore OVH-2 2023-01-29
+      - 443 Vmess Indonesia IKD 2023-01-29
+      - 443 Vmess Singapore OVH-2 2023-01-29 2
+      - 443 Vmess Singapore HE-1 2023-01-29
+      - 443 Vmess Indonesia Herza 2023-01-29
 rules:
   - MATCH,FASTSSH-SSHKIT-HOWDY
