@@ -169,7 +169,7 @@ proxies:
     uuid: 4c79d120-9b42-11ed-b834-205c6d5f5d78
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
     servername: z-p15.www.instagram.com
     network: ws
@@ -185,7 +185,7 @@ proxies:
     uuid: d46e38b0-9b40-11ed-b330-205c6d5f5d78
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
     servername: z-p15.www.instagram.com
     network: ws
@@ -194,14 +194,14 @@ proxies:
       headers:
         Host: z-p15.www.instagram.com
     udp: true
- - name: 443 Vmess USA Chicago 2023-01-31 2
+  - name: 443 Vmess USA Chicago 2023-01-31 2
     server: us-8.0rd.net
     port: 80
     type: vmess
     uuid: 1bfc5d00-9b41-11ed-b431-205c6d5f5d78
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
     servername: z-p15.www.instagram.com
     network: ws
@@ -217,7 +217,7 @@ proxies:
     uuid: 4cbb6260-9b41-11ed-b337-205c6d5f5d78
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
     servername: z-p15.www.instagram.com
     network: ws
