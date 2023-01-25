@@ -17,6 +17,22 @@ dns:
   nameserver:
     - https://cloudflare-dns.com/dns-query
 proxies:
+  - name: 443 Vmess Singapore HE-1 2023-02-01
+    server: sg-1.0rd.net
+    port: 2086
+    type: vmess
+    uuid: 4e599930-9cbb-11ed-b730-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: z-p15.www.instagram.com
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree
+      headers:
+        Host: z-p15.www.instagram.com
+    udp: false
   - name: 443 Vmess Singapore AMP-2 2023-01-29
     server: sg-7.0rd.net
     port: 2086
