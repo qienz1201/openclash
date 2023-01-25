@@ -19,7 +19,7 @@ dns:
 proxies:
   - name: 443 Vmess Singapore AMP-2 2023-01-29
     server: sg-7.0rd.net
-    port: 82
+    port: 2086
     type: vmess
     uuid: dd5e91a0-9a38-11ed-b036-205c6d5f5d78
     alterId: 0
@@ -35,7 +35,7 @@ proxies:
     udp: true
   - name: 443 Vmess Singapore AMP-2 2023-01-29 2
     server: sg-7.0rd.net
-    port: 80
+    port: 2086
     type: vmess
     uuid: 4fa5e8b0-9a39-11ed-b931-205c6d5f5d78
     alterId: 0
@@ -51,7 +51,7 @@ proxies:
     udp: true
   - name: 443 Vmess Singapore Melbi 2023-01-29
     server: sg-4.0rd.net
-    port: 80
+    port: 2086
     type: vmess
     uuid: 85143400-9a39-11ed-b336-205c6d5f5d78
     alterId: 0
@@ -67,7 +67,7 @@ proxies:
     udp: true
   - name: 443 Vmess Singapore Contabo 2023-01-29
     server: sg-3.0rd.net
-    port: 80
+    port: 2086
     type: vmess
     uuid: ac45b2a0-9a39-11ed-b336-205c6d5f5d78
     alterId: 0
@@ -83,7 +83,7 @@ proxies:
     udp: true
   - name: 443 Vmess Singapore OVH-2 2023-01-29
     server: sg-5.0rd.net
-    port: 80
+    port: 2086
     type: vmess
     uuid: d4d10410-9a39-11ed-b639-205c6d5f5d78
     alterId: 0
@@ -99,7 +99,7 @@ proxies:
     udp: true
   - name: 443 Vmess Indonesia IKD 2023-01-29
     server: id-2.0rd.net
-    port: 80
+    port: 2086
     type: vmess
     uuid: 04055d60-9a3a-11ed-b731-205c6d5f5d78
     alterId: 0
@@ -115,7 +115,7 @@ proxies:
     udp: true
   - name: 443 Vmess Singapore OVH-2 2023-01-29 2
     server: sg-5.0rd.net
-    port: 80
+    port: 2086
     type: vmess
     uuid: 4cdf0d60-9a3a-11ed-b439-205c6d5f5d78
     alterId: 0
@@ -131,7 +131,7 @@ proxies:
     udp: true
   - name: 443 Vmess Singapore HE-1 2023-01-29
     server: sg-1.0rd.net
-    port: 80
+    port: 2086
     type: vmess
     uuid: 739a2230-9a3a-11ed-b836-205c6d5f5d78
     alterId: 0
@@ -147,7 +147,7 @@ proxies:
     udp: true
   - name: 443 Vmess Indonesia Herza 2023-01-29
     server: id-1.0rd.net
-    port: 80
+    port: 2086
     type: vmess
     uuid: 95c864c0-9a3a-11ed-b830-205c6d5f5d78
     alterId: 0
@@ -164,7 +164,7 @@ proxies:
     proxies:
   - name: 443 Vmess USA Atlanta 2023-01-31
     server: us-9.0rd.net
-    port: 80
+    port: 2086
     type: vmess
     uuid: 4c79d120-9b42-11ed-b834-205c6d5f5d78
     alterId: 0
@@ -180,7 +180,7 @@ proxies:
     udp: true
   - name: 443 Vmess USA Los Angeles 2023-01-31
     server: us-7.0rd.net
-    port: 80
+    port: 2086
     type: vmess
     uuid: d46e38b0-9b40-11ed-b330-205c6d5f5d78
     alterId: 0
@@ -196,7 +196,7 @@ proxies:
     udp: true
   - name: 443 Vmess USA Chicago 2023-01-31 2
     server: us-8.0rd.net
-    port: 80
+    port: 2086
     type: vmess
     uuid: 1bfc5d00-9b41-11ed-b431-205c6d5f5d78
     alterId: 0
@@ -212,7 +212,7 @@ proxies:
     udp: true
   - name: 443 Vmess USA Santa Clara 2023-01-31
     server: us-10.0rd.net
-    port: 80
+    port: 2086
     type: vmess
     uuid: 4cbb6260-9b41-11ed-b337-205c6d5f5d78
     alterId: 0
