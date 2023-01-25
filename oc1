@@ -246,6 +246,7 @@ proxy-groups:
   - name: FASTSSH-SSHKIT-HOWDY
     type: select
     proxies:
+      - 443 Vmess Singapore HE-1 2023-02-01
       - 443 Vmess Singapore AMP-2 2023-01-29
       - 443 Vmess Singapore AMP-2 2023-01-29 2
       - 443 Vmess Singapore Melbi 2023-01-29
@@ -259,14 +260,56 @@ proxy-groups:
       - 443 Vmess USA Los Angeles 2023-01-31
       - 443 Vmess USA Chicago 2023-01-31 2
       - 443 Vmess USA Santa Clara 2023-01-31
+      - LOAD-BALANCE
       - BEST-PING
+      - FALLBACK
       - DIRECT
+  - name: LOAD-BALANCE
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://hi.bonds.id/ping
+    interval: 300
+    proxies:
+      - 443 Vmess Singapore HE-1 2023-02-01
+      - 443 Vmess Singapore AMP-2 2023-01-29
+      - 443 Vmess Singapore AMP-2 2023-01-29 2
+      - 443 Vmess Singapore Melbi 2023-01-29
+      - 443 Vmess Singapore Contabo 2023-01-29
+      - 443 Vmess Singapore OVH-2 2023-01-29
+      - 443 Vmess Indonesia IKD 2023-01-29
+      - 443 Vmess Singapore OVH-2 2023-01-29 2
+      - 443 Vmess Singapore HE-1 2023-01-29
+      - 443 Vmess Indonesia Herza 2023-01-29
+      - 443 Vmess USA Atlanta 2023-01-31
+      - 443 Vmess USA Los Angeles 2023-01-31
+      - 443 Vmess USA Chicago 2023-01-31 2
+      - 443 Vmess USA Santa Clara 2023-01-31
   - name: BEST-PING
     type: url-test
     url: http://hi.bonds.id/ping
     interval: 300
     tolerance: 50
     proxies:
+      - 443 Vmess Singapore HE-1 2023-02-01
+      - 443 Vmess Singapore AMP-2 2023-01-29
+      - 443 Vmess Singapore AMP-2 2023-01-29 2
+      - 443 Vmess Singapore Melbi 2023-01-29
+      - 443 Vmess Singapore Contabo 2023-01-29
+      - 443 Vmess Singapore OVH-2 2023-01-29
+      - 443 Vmess Indonesia IKD 2023-01-29
+      - 443 Vmess Singapore OVH-2 2023-01-29 2
+      - 443 Vmess Singapore HE-1 2023-01-29
+      - 443 Vmess Indonesia Herza 2023-01-29
+      - 443 Vmess USA Atlanta 2023-01-31
+      - 443 Vmess USA Los Angeles 2023-01-31
+      - 443 Vmess USA Chicago 2023-01-31 2
+      - 443 Vmess USA Santa Clara 2023-01-31
+  - name: FALLBACK
+    type: fallback
+    url: http://hi.bonds.id/ping
+    interval: 300
+    proxies:
+      - 443 Vmess Singapore HE-1 2023-02-01
       - 443 Vmess Singapore AMP-2 2023-01-29
       - 443 Vmess Singapore AMP-2 2023-01-29 2
       - 443 Vmess Singapore Melbi 2023-01-29
