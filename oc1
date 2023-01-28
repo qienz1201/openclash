@@ -242,6 +242,38 @@ proxies:
       headers:
         Host: z-p15.www.instagram.com
     udp: true
+  - name: v2ray1.udpgw.com
+    server: v2ray1.udpgw.com
+    port: 80
+    type: vmess
+    uuid: bb1005ab-153a-490d-999b-a037e0171614
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: z-p15.www.instagram.com
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree
+      headers:
+        Host: z-p15.www.instagram.com
+    udp: true
+  - name: dynamic-sg1b.obfs.xyz
+    server: dynamic-sg1b.obfs.xyz
+    port: 80
+    type: vmess
+    uuid: df2f146d-0e7d-4d73-ae62-8590d786d95c
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: z-p15.www.instagram.com
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree
+      headers:
+        Host: z-p15.www.instagram.com
+    udp: true
 proxy-groups:
   - name: FASTSSH-SSHKIT-HOWDY
     type: select
@@ -260,6 +292,8 @@ proxy-groups:
       - 443 Vmess USA Los Angeles 2023-01-31
       - 443 Vmess USA Chicago 2023-01-31 2
       - 443 Vmess USA Santa Clara 2023-01-31
+      - v2ray1.udpgw.com
+      - dynamic-sg1b.obfs.xyz
       - LOAD-BALANCE
       - BEST-PING
       - FALLBACK
@@ -284,6 +318,8 @@ proxy-groups:
       - 443 Vmess USA Los Angeles 2023-01-31
       - 443 Vmess USA Chicago 2023-01-31 2
       - 443 Vmess USA Santa Clara 2023-01-31
+      - v2ray1.udpgw.com
+      - dynamic-sg1b.obfs.xyz
   - name: BEST-PING
     type: url-test
     url: http://hi.bonds.id/ping
@@ -304,6 +340,8 @@ proxy-groups:
       - 443 Vmess USA Los Angeles 2023-01-31
       - 443 Vmess USA Chicago 2023-01-31 2
       - 443 Vmess USA Santa Clara 2023-01-31
+      - v2ray1.udpgw.com
+      - dynamic-sg1b.obfs.xyz
   - name: FALLBACK
     type: fallback
     url: http://hi.bonds.id/ping
@@ -323,5 +361,7 @@ proxy-groups:
       - 443 Vmess USA Los Angeles 2023-01-31
       - 443 Vmess USA Chicago 2023-01-31 2
       - 443 Vmess USA Santa Clara 2023-01-31
+      - v2ray1.udpgw.com
+      - dynamic-sg1b.obfs.xyz
 rules:
   - MATCH,FASTSSH-SSHKIT-HOWDY
