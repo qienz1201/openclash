@@ -21,7 +21,7 @@ proxies:
     server: sg-1.0rd.net
     port: 2086
     type: vmess
-    uuid: 4e599930-9cbb-11ed-b730-205c6d5f5d78
+    uuid: dd281370-a3b9-11ed-b630-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
