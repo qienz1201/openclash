@@ -1,0 +1,1 @@
+GET http://tsel.me/worryfree/ HTTP/2[crlf]Host: m.mobilelegends.com[crlf]Upgrade: Websocket[crlf][crlf]
