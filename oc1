@@ -19,7 +19,7 @@ dns:
 proxies:
   - name: 443 Vmess Singapore HE-1 2023-02-01
     server: sg-1.0rd.net
-    port: 2086
+    port: 80
     type: vmess
     uuid: dd281370-a3b9-11ed-b630-205c6d5f5d78
     alterId: 0
