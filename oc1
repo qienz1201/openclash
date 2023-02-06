@@ -274,6 +274,22 @@ proxies:
       headers:
         Host: z-p15.www.instagram.com
     udp: true
+  - name: OP0K UNLIMITED 21
+    server: 139.59.228.48
+    port: 80
+    type: vmess
+    uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: z-p15-scontent-lhr3-1.cdninstagram.com
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree
+      headers:
+        Host: z-p15-scontent-lhr3-1.cdninstagram.com
+    udp: true
 proxy-groups:
   - name: FASTSSH-SSHKIT-HOWDY
     type: select
@@ -294,6 +310,7 @@ proxy-groups:
       - 443 Vmess USA Santa Clara 2023-01-31
       - v2ray1.udpgw.com
       - dynamic-sg1b.obfs.xyz
+      - OP0K UNLIMITED 21
       - LOAD-BALANCE
       - BEST-PING
       - FALLBACK
@@ -320,6 +337,7 @@ proxy-groups:
       - 443 Vmess USA Santa Clara 2023-01-31
       - v2ray1.udpgw.com
       - dynamic-sg1b.obfs.xyz
+      - OP0K UNLIMITED 21
   - name: BEST-PING
     type: url-test
     url: http://hi.bonds.id/ping
@@ -342,6 +360,7 @@ proxy-groups:
       - 443 Vmess USA Santa Clara 2023-01-31
       - v2ray1.udpgw.com
       - dynamic-sg1b.obfs.xyz
+      - OP0K UNLIMITED 21
   - name: FALLBACK
     type: fallback
     url: http://hi.bonds.id/ping
@@ -363,5 +382,6 @@ proxy-groups:
       - 443 Vmess USA Santa Clara 2023-01-31
       - v2ray1.udpgw.com
       - dynamic-sg1b.obfs.xyz
+      - OP0K UNLIMITED 21
 rules:
   - MATCH,FASTSSH-SSHKIT-HOWDY
