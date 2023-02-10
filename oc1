@@ -290,6 +290,22 @@ proxies:
       headers:
         Host: z-p15-scontent-lhr3-1.cdninstagram.com
     udp: true
+  - name: jagoanssh-dvcbttgt
+    server: 104.26.7.171
+    port: 80
+    type: vmess
+    uuid: dcc1c8bd-1144-4611-b9be-f79f69d7d4ba
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg8-ray.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /JAGOANSSH/
+      headers:
+        Host: sg8-ray.ipservers.xyz
+    udp: true
 proxy-groups:
   - name: FASTSSH-SSHKIT-HOWDY
     type: select
@@ -311,6 +327,7 @@ proxy-groups:
       - v2ray1.udpgw.com
       - dynamic-sg1b.obfs.xyz
       - OP0K UNLIMITED 21
+      - jagoanssh-dvcbttgt
       - LOAD-BALANCE
       - BEST-PING
       - FALLBACK
@@ -338,6 +355,7 @@ proxy-groups:
       - v2ray1.udpgw.com
       - dynamic-sg1b.obfs.xyz
       - OP0K UNLIMITED 21
+      - jagoanssh-dvcbttgt
   - name: BEST-PING
     type: url-test
     url: http://hi.bonds.id/ping
@@ -361,6 +379,7 @@ proxy-groups:
       - v2ray1.udpgw.com
       - dynamic-sg1b.obfs.xyz
       - OP0K UNLIMITED 21
+      - jagoanssh-dvcbttgt
   - name: FALLBACK
     type: fallback
     url: http://hi.bonds.id/ping
@@ -383,5 +402,6 @@ proxy-groups:
       - v2ray1.udpgw.com
       - dynamic-sg1b.obfs.xyz
       - OP0K UNLIMITED 21
+      - jagoanssh-dvcbttgt
 rules:
   - MATCH,FASTSSH-SSHKIT-HOWDY
