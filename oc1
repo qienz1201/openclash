@@ -33,37 +33,37 @@ proxies:
       headers:
         Host: sg-1.0rd.net
     udp: false
-  - name: 443 Vmess Singapore AMP-2 2023-01-29
-    server: sg-7.0rd.net
-    port: 2086
+  - name: jagoanssh-ngjcbgfhjg
+    server: 104.26.7.171
+    port: 80
     type: vmess
-    uuid: dd5e91a0-9a38-11ed-b036-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: false
-    servername: z-p15.www.instagram.com
-    network: ws
-    ws-opts:
-      path: http://tsel.me/worryfree
-      headers:
-        Host: z-p15.www.instagram.com
-    udp: true
-  - name: 443 Vmess Singapore AMP-2 2023-01-29 2
-    server: sg-7.0rd.net
-    port: 2086
-    type: vmess
-    uuid: 4fa5e8b0-9a39-11ed-b931-205c6d5f5d78
+    uuid: 04a521bd-3488-4f8a-9da0-558e51fdbbf1
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: z-p15.www.instagram.com
+    servername: id1-ray.ipservers.xyz
     network: ws
     ws-opts:
-      path: http://tsel.me/worryfree
+      path: /JAGOANSSH/
       headers:
-        Host: z-p15.www.instagram.com
+        Host: id1-ray.ipservers.xyz
+    udp: true
+  - name: jagoanssh-vdgrgdfbbfg
+    server: 104.26.7.171
+    port: 80
+    type: vmess
+    uuid: 991ffbf6-3372-4688-9f57-7478d9469b2d
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: id2-ray.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /JAGOANSSH/
+      headers:
+        Host: id2-ray.ipservers.xyz
     udp: true
   - name: 443 Vmess Singapore Melbi 2023-01-29
     server: sg-4.0rd.net
@@ -311,8 +311,8 @@ proxy-groups:
     type: select
     proxies:
       - 443 Vmess Singapore HE-1 2023-02-01
-      - 443 Vmess Singapore AMP-2 2023-01-29
-      - 443 Vmess Singapore AMP-2 2023-01-29 2
+      - jagoanssh-ngjcbgfhjg
+      - jagoanssh-vdgrgdfbbfg
       - 443 Vmess Singapore Melbi 2023-01-29
       - 443 Vmess Singapore Contabo 2023-01-29
       - 443 Vmess Singapore OVH-2 2023-01-29
@@ -339,8 +339,8 @@ proxy-groups:
     interval: 300
     proxies:
       - 443 Vmess Singapore HE-1 2023-02-01
-      - 443 Vmess Singapore AMP-2 2023-01-29
-      - 443 Vmess Singapore AMP-2 2023-01-29 2
+      - jagoanssh-ngjcbgfhjg
+      - jagoanssh-vdgrgdfbbfg
       - 443 Vmess Singapore Melbi 2023-01-29
       - 443 Vmess Singapore Contabo 2023-01-29
       - 443 Vmess Singapore OVH-2 2023-01-29
@@ -363,8 +363,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 443 Vmess Singapore HE-1 2023-02-01
-      - 443 Vmess Singapore AMP-2 2023-01-29
-      - 443 Vmess Singapore AMP-2 2023-01-29 2
+      - jagoanssh-ngjcbgfhjg
+      - jagoanssh-vdgrgdfbbfg
       - 443 Vmess Singapore Melbi 2023-01-29
       - 443 Vmess Singapore Contabo 2023-01-29
       - 443 Vmess Singapore OVH-2 2023-01-29
@@ -386,8 +386,8 @@ proxy-groups:
     interval: 300
     proxies:
       - 443 Vmess Singapore HE-1 2023-02-01
-      - 443 Vmess Singapore AMP-2 2023-01-29
-      - 443 Vmess Singapore AMP-2 2023-01-29 2
+      - jagoanssh-ngjcbgfhjg
+      - jagoanssh-vdgrgdfbbfg
       - 443 Vmess Singapore Melbi 2023-01-29
       - 443 Vmess Singapore Contabo 2023-01-29
       - 443 Vmess Singapore OVH-2 2023-01-29
