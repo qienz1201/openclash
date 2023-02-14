@@ -17,7 +17,7 @@ dns:
   nameserver:
     - https://cloudflare-dns.com/dns-query
 proxies:
-  - name: 443 Vmess Singapore HE-1 2023-02-01
+  - name: qienz1
     server: 104.26.7.171
     port: 80
     type: vmess
@@ -33,7 +33,7 @@ proxies:
       headers:
         Host: sg-1.0rd.net
     udp: false
-  - name: jagoanssh-ngjcbgfhjg
+  - name: qienz2
     server: 104.26.7.171
     port: 80
     type: vmess
@@ -49,7 +49,7 @@ proxies:
       headers:
         Host: id1-ray.ipservers.xyz
     udp: true
-  - name: jagoanssh-vdgrgdfbbfg
+  - name: qienz3
     server: 104.26.7.171
     port: 80
     type: vmess
@@ -65,55 +65,55 @@ proxies:
       headers:
         Host: id2-ray.ipservers.xyz
     udp: true
-  - name: 443 Vmess Singapore Melbi 2023-01-29
-    server: sg-4.0rd.net
-    port: 2086
+  - name: qienz4
+    server: 104.26.7.171
+    port: 80
     type: vmess
-    uuid: 85143400-9a39-11ed-b336-205c6d5f5d78
+    uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
+    alterId: 16
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: idv-3.openv2ray.com
+    network: ws
+    ws-opts:
+      path: /opentunnel?user=opentunnel.net-qienz404
+      headers:
+        Host: idv-3.openv2ray.com
+    udp: true
+  - name: qienz5
+    server: 104.26.7.171
+    port: 80
+    type: vmess
+    uuid: fc40c372-5f82-4cba-ab5c-4e31f94be439
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: z-p15.www.instagram.com
+    servername: id2.v2-ray.us
     network: ws
     ws-opts:
-      path: http://tsel.me/worryfree
+      path: /vmess
       headers:
-        Host: z-p15.www.instagram.com
+        Host: id2.v2-ray.us
     udp: true
-  - name: 443 Vmess Singapore Contabo 2023-01-29
-    server: sg-3.0rd.net
-    port: 2086
+  - name: qienz6
+    server: 104.26.7.171
+    port: 443
     type: vmess
-    uuid: ac45b2a0-9a39-11ed-b336-205c6d5f5d78
+    uuid: 32d81733-1662-4a76-9a87-4556c1e367ce
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
-    servername: z-p15.www.instagram.com
+    servername: id-full.privateip.net
     network: ws
     ws-opts:
-      path: http://tsel.me/worryfree
+      path: /racevpn
       headers:
-        Host: z-p15.www.instagram.com
+        Host: id-full.privateip.net
     udp: true
-  - name: 443 Vmess Singapore OVH-2 2023-01-29
-    server: sg-5.0rd.net
-    port: 2086
-    type: vmess
-    uuid: d4d10410-9a39-11ed-b639-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: z-p15.www.instagram.com
-    network: ws
-    ws-opts:
-      path: http://tsel.me/worryfree
-      headers:
-        Host: z-p15.www.instagram.com
-    udp: true
-  - name: 443 Vmess Indonesia IKD 2023-01-29
+  - name: qienz7
     server: id-2.0rd.net
     port: 2086
     type: vmess
@@ -129,7 +129,7 @@ proxies:
       headers:
         Host: z-p15.www.instagram.com
     udp: true
-  - name: 443 Vmess Singapore OVH-2 2023-01-29 2
+  - name: qienz8
     server: sg-5.0rd.net
     port: 2086
     type: vmess
@@ -145,7 +145,7 @@ proxies:
       headers:
         Host: z-p15.www.instagram.com
     udp: true
-  - name: 443 Vmess Singapore HE-1 2023-01-29
+  - name: qienz9
     server: sg-1.0rd.net
     port: 2086
     type: vmess
@@ -161,7 +161,7 @@ proxies:
       headers:
         Host: z-p15.www.instagram.com
     udp: true
-  - name: 443 Vmess Indonesia Herza 2023-01-29
+  - name: qienz10
     server: id-1.0rd.net
     port: 2086
     type: vmess
@@ -178,7 +178,7 @@ proxies:
         Host: z-p15.www.instagram.com
     udp: true
     proxies:
-  - name: 443 Vmess USA Atlanta 2023-01-31
+  - name: qienz11
     server: us-9.0rd.net
     port: 2086
     type: vmess
@@ -194,7 +194,7 @@ proxies:
       headers:
         Host: z-p15.www.instagram.com
     udp: true
-  - name: 443 Vmess USA Los Angeles 2023-01-31
+  - name: qienz12
     server: us-7.0rd.net
     port: 2086
     type: vmess
@@ -210,7 +210,7 @@ proxies:
       headers:
         Host: z-p15.www.instagram.com
     udp: true
-  - name: 443 Vmess USA Chicago 2023-01-31 2
+  - name: qienz13
     server: us-8.0rd.net
     port: 2086
     type: vmess
@@ -226,7 +226,7 @@ proxies:
       headers:
         Host: z-p15.www.instagram.com
     udp: true
-  - name: 443 Vmess USA Santa Clara 2023-01-31
+  - name: qienz14
     server: us-10.0rd.net
     port: 2086
     type: vmess
@@ -242,7 +242,7 @@ proxies:
       headers:
         Host: z-p15.www.instagram.com
     udp: true
-  - name: v2ray1.udpgw.com
+  - name: qienz15
     server: v2ray1.udpgw.com
     port: 80
     type: vmess
@@ -258,7 +258,7 @@ proxies:
       headers:
         Host: z-p15.www.instagram.com
     udp: true
-  - name: dynamic-sg1b.obfs.xyz
+  - name: qienz16
     server: dynamic-sg1b.obfs.xyz
     port: 80
     type: vmess
@@ -274,7 +274,7 @@ proxies:
       headers:
         Host: z-p15.www.instagram.com
     udp: true
-  - name: OP0K UNLIMITED 21
+  - name: qienz17
     server: 139.59.228.48
     port: 80
     type: vmess
@@ -290,7 +290,7 @@ proxies:
       headers:
         Host: z-p15-scontent-lhr3-1.cdninstagram.com
     udp: true
-  - name: jagoanssh-dvcbttgt
+  - name: qienz18
     server: 104.26.7.171
     port: 80
     type: vmess
@@ -310,24 +310,24 @@ proxy-groups:
   - name: FASTSSH-SSHKIT-HOWDY
     type: select
     proxies:
-      - 443 Vmess Singapore HE-1 2023-02-01
-      - jagoanssh-ngjcbgfhjg
-      - jagoanssh-vdgrgdfbbfg
-      - 443 Vmess Singapore Melbi 2023-01-29
-      - 443 Vmess Singapore Contabo 2023-01-29
-      - 443 Vmess Singapore OVH-2 2023-01-29
-      - 443 Vmess Indonesia IKD 2023-01-29
-      - 443 Vmess Singapore OVH-2 2023-01-29 2
-      - 443 Vmess Singapore HE-1 2023-01-29
-      - 443 Vmess Indonesia Herza 2023-01-29
-      - 443 Vmess USA Atlanta 2023-01-31
-      - 443 Vmess USA Los Angeles 2023-01-31
-      - 443 Vmess USA Chicago 2023-01-31 2
-      - 443 Vmess USA Santa Clara 2023-01-31
-      - v2ray1.udpgw.com
-      - dynamic-sg1b.obfs.xyz
-      - OP0K UNLIMITED 21
-      - jagoanssh-dvcbttgt
+      - qienz1
+      - qienz2
+      - qienz3
+      - qienz4
+      - qienz5
+      - qienz6
+      - qienz7
+      - qienz8
+      - qienz9
+      - qienz10
+      - qienz11
+      - qienz12
+      - qienz13
+      - qienz14
+      - qienz15
+      - qienz16
+      - qienz17
+      - qienz18
       - LOAD-BALANCE
       - BEST-PING
       - FALLBACK
@@ -338,70 +338,70 @@ proxy-groups:
     url: http://hi.bonds.id/ping
     interval: 300
     proxies:
-      - 443 Vmess Singapore HE-1 2023-02-01
-      - jagoanssh-ngjcbgfhjg
-      - jagoanssh-vdgrgdfbbfg
-      - 443 Vmess Singapore Melbi 2023-01-29
-      - 443 Vmess Singapore Contabo 2023-01-29
-      - 443 Vmess Singapore OVH-2 2023-01-29
-      - 443 Vmess Indonesia IKD 2023-01-29
-      - 443 Vmess Singapore OVH-2 2023-01-29 2
-      - 443 Vmess Singapore HE-1 2023-01-29
-      - 443 Vmess Indonesia Herza 2023-01-29
-      - 443 Vmess USA Atlanta 2023-01-31
-      - 443 Vmess USA Los Angeles 2023-01-31
-      - 443 Vmess USA Chicago 2023-01-31 2
-      - 443 Vmess USA Santa Clara 2023-01-31
-      - v2ray1.udpgw.com
-      - dynamic-sg1b.obfs.xyz
-      - OP0K UNLIMITED 21
-      - jagoanssh-dvcbttgt
+      - qienz1
+      - qienz2
+      - qienz3
+      - qienz4
+      - qienz5
+      - qienz6
+      - qienz7
+      - qienz8
+      - qienz9
+      - qienz10
+      - qienz11
+      - qienz12
+      - qienz13
+      - qienz14
+      - qienz15
+      - qienz16
+      - qienz17
+      - qienz18
   - name: BEST-PING
     type: url-test
     url: http://hi.bonds.id/ping
     interval: 300
     tolerance: 50
     proxies:
-      - 443 Vmess Singapore HE-1 2023-02-01
-      - jagoanssh-ngjcbgfhjg
-      - jagoanssh-vdgrgdfbbfg
-      - 443 Vmess Singapore Melbi 2023-01-29
-      - 443 Vmess Singapore Contabo 2023-01-29
-      - 443 Vmess Singapore OVH-2 2023-01-29
-      - 443 Vmess Indonesia IKD 2023-01-29
-      - 443 Vmess Singapore OVH-2 2023-01-29 2
-      - 443 Vmess Singapore HE-1 2023-01-29
-      - 443 Vmess Indonesia Herza 2023-01-29
-      - 443 Vmess USA Atlanta 2023-01-31
-      - 443 Vmess USA Los Angeles 2023-01-31
-      - 443 Vmess USA Chicago 2023-01-31 2
-      - 443 Vmess USA Santa Clara 2023-01-31
-      - v2ray1.udpgw.com
-      - dynamic-sg1b.obfs.xyz
-      - OP0K UNLIMITED 21
-      - jagoanssh-dvcbttgt
+      - qienz1
+      - qienz2
+      - qienz3
+      - qienz4
+      - qienz5
+      - qienz6
+      - qienz7
+      - qienz8
+      - qienz9
+      - qienz10
+      - qienz11
+      - qienz12
+      - qienz13
+      - qienz14
+      - qienz15
+      - qienz16
+      - qienz17
+      - qienz18
   - name: FALLBACK
     type: fallback
     url: http://hi.bonds.id/ping
     interval: 300
     proxies:
-      - 443 Vmess Singapore HE-1 2023-02-01
-      - jagoanssh-ngjcbgfhjg
-      - jagoanssh-vdgrgdfbbfg
-      - 443 Vmess Singapore Melbi 2023-01-29
-      - 443 Vmess Singapore Contabo 2023-01-29
-      - 443 Vmess Singapore OVH-2 2023-01-29
-      - 443 Vmess Indonesia IKD 2023-01-29
-      - 443 Vmess Singapore OVH-2 2023-01-29 2
-      - 443 Vmess Singapore HE-1 2023-01-29
-      - 443 Vmess Indonesia Herza 2023-01-29
-      - 443 Vmess USA Atlanta 2023-01-31
-      - 443 Vmess USA Los Angeles 2023-01-31
-      - 443 Vmess USA Chicago 2023-01-31 2
-      - 443 Vmess USA Santa Clara 2023-01-31
-      - v2ray1.udpgw.com
-      - dynamic-sg1b.obfs.xyz
-      - OP0K UNLIMITED 21
-      - jagoanssh-dvcbttgt
+      - qienz1
+      - qienz2
+      - qienz3
+      - qienz4
+      - qienz5
+      - qienz6
+      - qienz7
+      - qienz8
+      - qienz9
+      - qienz10
+      - qienz11
+      - qienz12
+      - qienz13
+      - qienz14
+      - qienz15
+      - qienz16
+      - qienz17
+      - qienz18
 rules:
   - MATCH,FASTSSH-SSHKIT-HOWDY
