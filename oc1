@@ -18,21 +18,21 @@ dns:
     - https://cloudflare-dns.com/dns-query
 proxies:
   - name: qienz1
-    server: 104.26.7.171
-    port: 80
+    server: qienz.mooo.com
+    port: 443
     type: vmess
-    uuid: 95591e40-a61b-11ed-b332-205c6d5f5d78
+    uuid: 26c270d0-ac7a-11ed-b830-205c6d5f5d78
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
     servername: sg-1.0rd.net
     network: ws
     ws-opts:
-      path: /fastssh
+      path: /ysb3d97n
       headers:
         Host: sg-1.0rd.net
-    udp: false
+    udp: true
   - name: qienz2
     server: 104.26.7.171
     port: 80
