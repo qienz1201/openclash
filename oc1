@@ -19,12 +19,12 @@ dns:
 proxies:
   - name: qienz1
     server: qienz.mooo.com
-    port: 443
+    port: 80
     type: vmess
-    uuid: 26c270d0-ac7a-11ed-b830-205c6d5f5d78
+    uuid: 33b31f60-adae-11ed-b537-205c6d5f5d78
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
     servername: sg-1.0rd.net
     network: ws
