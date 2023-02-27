@@ -18,7 +18,7 @@ dns:
     - https://cloudflare-dns.com/dns-query
 proxies:
   - name: qienz1
-    server: sg-1.0rd.net
+    server: 104.26.7.171
     port: 80
     type: vmess
     uuid: 062f8d90-b649-11ed-b434-205c6d5f5d78
@@ -26,15 +26,14 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 104.26.7.171
+    servername: sg-1.0rd.net
     network: ws
     ws-opts:
       path: /t0er9bjp
       headers:
-        Host: 104.26.7.171
-    udp: true
+        Host: sg-1.0rd.net
   - name: qienz2
-    server: id-1.0rd.net
+    server: 104.26.7.171
     port: 80
     type: vmess
     uuid: 527c2640-b649-11ed-b439-205c6d5f5d78
@@ -42,15 +41,15 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 104.26.7.171
+    servername: id-1.0rd.net
     network: ws
     ws-opts:
       path: /ucfipmkr
       headers:
-        Host: 104.26.7.171
+        Host: id-1.0rd.net
     udp: true
   - name: qienz3
-    server: us-13.0rd.net
+    server: 104.26.7.171
     port: 80
     type: vmess
     uuid: 87530ee0-b649-11ed-b932-205c6d5f5d78
@@ -58,12 +57,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 104.26.7.171
+    servername: us-13.0rd.net
     network: ws
     ws-opts:
       path: /nxwslki3
       headers:
-        Host: 104.26.7.171
+        Host: us-13.0rd.net
     udp: true
   - name: qienz4
     server: 104.26.7.171
