@@ -19,7 +19,7 @@ dns:
 proxies:
   - name: 443 Vmess Singapore HE-1 2023-03-06
     server: sg-1.0rd.net
-    port: 443
+    port: 80
     type: vmess
     uuid: 062f8d90-b649-11ed-b434-205c6d5f5d78
     alterId: 0
@@ -35,7 +35,7 @@ proxies:
     udp: true
   - name: 443 Vmess Indonesia Herza 2023-03-06
     server: id-1.0rd.net
-    port: 443
+    port: 80
     type: vmess
     uuid: 527c2640-b649-11ed-b439-205c6d5f5d78
     alterId: 0
@@ -51,7 +51,7 @@ proxies:
     udp: true
   - name: 443 Vmess C USA St Louis 2023-03-06
     server: us-13.0rd.net
-    port: 443
+    port: 80
     type: vmess
     uuid: 87530ee0-b649-11ed-b932-205c6d5f5d78
     alterId: 0
