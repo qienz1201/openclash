@@ -21,17 +21,18 @@ proxies:
     server: 104.26.7.171
     port: 80
     type: vmess
-    uuid: 062f8d90-b649-11ed-b434-205c6d5f5d78
+    uuid: 0945c020-bb1e-11ed-b237-205c6d5f5d78
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
     servername: sg-1.0rd.net
     network: ws
     ws-opts:
-      path: /t0er9bjp
+      path: /hox6vzke
       headers:
         Host: sg-1.0rd.net
+    udp: true
   - name: qienz2
     server: 104.26.7.171
     port: 80
