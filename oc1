@@ -53,17 +53,17 @@ proxies:
     server: 104.26.7.171
     port: 80
     type: vmess
-    uuid: 87530ee0-b649-11ed-b932-205c6d5f5d78
+    uuid: 87b038c0-bc07-11ed-b433-205c6d5f5d78
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
-    servername: us-13.0rd.net
+    servername: id-1.0rd.net
     network: ws
     ws-opts:
-      path: /nxwslki3
+      path: /0hszcei5
       headers:
-        Host: us-13.0rd.net
+        Host: id-1.0rd.net
     udp: true
   - name: qienz4
     server: 104.26.7.171
