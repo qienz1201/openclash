@@ -37,17 +37,17 @@ proxies:
     server: 104.26.7.171
     port: 80
     type: vmess
-    uuid: 527c2640-b649-11ed-b439-205c6d5f5d78
+    uuid: d4ce2e4c-9295-47eb-b90a-b671c2ab0cb1
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
-    servername: id-1.0rd.net
+    servername: v2ray1.udpgw.com
     network: ws
     ws-opts:
-      path: /ucfipmkr
+      path: /worryfree
       headers:
-        Host: id-1.0rd.net
+        Host: v2ray1.udpgw.com
     udp: true
   - name: qienz3
     server: 104.26.7.171
