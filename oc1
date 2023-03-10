@@ -69,17 +69,17 @@ proxies:
     server: 104.26.7.171
     port: 80
     type: vmess
-    uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
-    alterId: 16
+    uuid: 17e8e460-bf36-11ed-b434-205c6d5f5d78
+    alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: idv-3.openv2ray.com
+    servername: us-14.0rd.net
     network: ws
     ws-opts:
-      path: /opentunnel?user=opentunnel.net-qienz404
+      path: /dbjr5247
       headers:
-        Host: idv-3.openv2ray.com
+        Host: us-14.0rd.net
     udp: true
   - name: qienz5
     server: 104.26.7.171
