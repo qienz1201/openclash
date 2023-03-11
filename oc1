@@ -99,19 +99,19 @@ proxies:
     udp: true
   - name: qienz6
     server: 104.26.7.171
-    port: 443
+    port: 80
     type: vmess
-    uuid: 32d81733-1662-4a76-9a87-4556c1e367ce
+    uuid: 2721f3b3-572a-4881-ad75-c704511cd42f
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
-    servername: id-full.privateip.net
+    servername: ray.vpnstunnel.me
     network: ws
     ws-opts:
-      path: /racevpn
+      path: /vmess
       headers:
-        Host: id-full.privateip.net
+        Host: ray.vpnstunnel.me
     udp: true
   - name: qienz7
     server: id-2.0rd.net
