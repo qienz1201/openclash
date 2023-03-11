@@ -37,33 +37,33 @@ proxies:
     server: 104.26.7.171
     port: 80
     type: vmess
-    uuid: d4ce2e4c-9295-47eb-b90a-b671c2ab0cb1
+    uuid: 06bdb184-e4ed-4ed0-a68c-c28cc81660e5
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: v2ray1.udpgw.com
+    servername: dynamic-sg1b.obfs.xyz
     network: ws
     ws-opts:
       path: /worryfree
       headers:
-        Host: v2ray1.udpgw.com
+        Host: dynamic-sg1b.obfs.xyz
     udp: true
   - name: qienz3
     server: 104.26.7.171
     port: 80
     type: vmess
-    uuid: 99da0360-bdba-11ed-b933-205c6d5f5d78
+    uuid: aec7f017-544e-41e0-9c41-31357df74d64
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: id-1.0rd.net
+    servername: v2ray2.udpgw.com
     network: ws
     ws-opts:
-      path: /0hszcei5
+      path: /worryfree
       headers:
-        Host: id-1.0rd.net
+        Host: v2ray2.udpgw.com
     udp: true
   - name: qienz4
     server: 104.26.7.171
@@ -275,36 +275,36 @@ proxies:
         Host: z-p15.www.instagram.com
     udp: true
   - name: qienz17
-    server: 139.59.228.48
+    server: 104.26.7.171
     port: 80
     type: vmess
-    uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
+    uuid: 8acfcc00-49d7-4cc8-ad5e-84b8ae4002e5
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: z-p15-scontent-lhr3-1.cdninstagram.com
+    servername: id2-ray.ipservers.xyz
     network: ws
     ws-opts:
-      path: http://tsel.me/worryfree
+      path: /JAGOANSSH/
       headers:
-        Host: z-p15-scontent-lhr3-1.cdninstagram.com
+        Host: id2-ray.ipservers.xyz
     udp: true
   - name: qienz18
     server: 104.26.7.171
     port: 80
     type: vmess
-    uuid: dcc1c8bd-1144-4611-b9be-f79f69d7d4ba
+    uuid: af1678fe-dc65-4f78-a37d-fe5a86f938c7
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: sg8-ray.ipservers.xyz
+    servername: sg-ray.ipservers.xyz
     network: ws
     ws-opts:
       path: /JAGOANSSH/
       headers:
-        Host: sg8-ray.ipservers.xyz
+        Host: sg-ray.ipservers.xyz
     udp: true
 proxy-groups:
   - name: FASTSSH-SSHKIT-HOWDY
