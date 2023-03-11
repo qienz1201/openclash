@@ -114,20 +114,20 @@ proxies:
         Host: ray.vpnstunnel.me
     udp: true
   - name: qienz7
-    server: id-2.0rd.net
-    port: 2086
+    server: 104.26.7.171
+    port: 80
     type: vmess
-    uuid: 04055d60-9a3a-11ed-b731-205c6d5f5d78
+    uuid: 6ab281c2-bbbc-43b9-9247-b165a874f571
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: z-p15.www.instagram.com
+    servername: id1-vmess.greenssh.xyz
     network: ws
     ws-opts:
-      path: http://tsel.me/worryfree
+      path: /vmess
       headers:
-        Host: z-p15.www.instagram.com
+        Host: id1-vmess.greenssh.xyz
     udp: true
   - name: qienz8
     server: sg-5.0rd.net
