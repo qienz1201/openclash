@@ -130,36 +130,36 @@ proxies:
         Host: id1-vmess.greenssh.xyz
     udp: true
   - name: qienz8
-    server: sg-5.0rd.net
-    port: 2086
+    server: qienz.mooo.com
+    port: 80
     type: vmess
-    uuid: 4cdf0d60-9a3a-11ed-b439-205c6d5f5d78
+    uuid: 1afa0153-adb6-4bb9-9cbb-86392871be8b
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: z-p15.www.instagram.com
+    servername: sg1-vmess.greenssh.xyz
     network: ws
     ws-opts:
-      path: http://tsel.me/worryfree
+      path: /vmess
       headers:
-        Host: z-p15.www.instagram.com
+        Host: sg1-vmess.greenssh.xyz
     udp: true
   - name: qienz9
-    server: sg-1.0rd.net
-    port: 2086
+    server: qienz.mooo.com
+    port: 80
     type: vmess
-    uuid: 739a2230-9a3a-11ed-b836-205c6d5f5d78
+    uuid: e5c4c19b-5a1f-4ecb-9566-f2a144efb165
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: z-p15.www.instagram.com
+    servername: sg2-vmess.greenssh.xyz
     network: ws
     ws-opts:
-      path: http://tsel.me/worryfree
+      path: /vmess
       headers:
-        Host: z-p15.www.instagram.com
+        Host: sg2-vmess.greenssh.xyz
     udp: true
   - name: qienz10
     server: id-1.0rd.net
